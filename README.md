@@ -2,6 +2,10 @@
 
 [打开三维网页](https://woshinidie666-cloud.github.io/rhythm-master-3d/)
 
+[直接打开面包板3D](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html) · [流畅画质重试](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html?quality=smooth) · [不需要3D加速的兼容孔位图](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard-guide.html)
+
+面包板页面会在第一帧绘制成功后提示“3D模型已显示”；初始化失败或浏览器暂停3D时会显示重试入口。兼容页保留同一份电路数据中的元件规格、各脚孔位和逐根跳线说明。离线使用时请保留完整网页文件夹，避免只移动入口造成相对链接失效。
+
 [双面包板接线版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html)：顶部切换洞洞板和双面包板。按两块 MB-102 的 A–J、1–63 编号定位，支持逐步安装、一次显示一根线、起终点放大、五孔连通示意、单独查看元件与 CSV 接线表。默认仅显示灯和按键，屏幕与声音候选区需自行勾选。模型检查覆盖47个外围元件、64根跳线；设计通过不代表实物通电验收。核心板采用命名接口示意，不能按模型中的排针位置代替实板丝印定位。电源条按50个孔从左数，使用25到26桥接，实物连通仍需万用表确认。
 
 [指定乐曲验收回放](https://woshinidie666-cloud.github.io/rhythm-master-3d/simulator.html) · [从零组装与比赛操作手册](https://woshinidie666-cloud.github.io/rhythm-master-3d/manual.html)
