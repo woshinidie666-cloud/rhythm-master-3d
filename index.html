@@ -14,8 +14,8 @@
 .explain-actions button[hidden]{display:none}.wire-guide-tip:after{content:' 建议暂停后用“下一步”逐根确认。';color:#98f1d8}
 .wire-endpoints small{display:block;color:#b7d7dc;font-size:11px;line-height:1.6;margin-top:5px;max-height:55px;overflow:auto}.stage.wire-teaching .transport{overflow-y:auto}
 </style>
-</head><body>
-<header class="topbar"><div class="brand">节奏大师 <span style="font-weight:400;color:#a1b6c8">3D 接线与组装</span><span class="badge">离线查看</span></div><span class="draft">设计草稿 · 实物尺寸与供电待核对</span><nav style="display:flex;gap:12px;font-size:12px;white-space:nowrap"><a href="simulator.html" style="color:#79e4cd">音乐验收回放</a><a href="manual.html" style="color:#79e4cd">操作手册</a></nav></header>
+<style>.topbar{gap:10px;flex-wrap:wrap;height:auto;min-height:76px}.layout{height:calc(100vh - 76px)}.topbar .draft{display:none}.topbar .badge{display:none}@media(max-width:900px){.topbar{padding:10px}.layout{height:calc(100vh - 105px)}}@media(max-width:650px){.layout{height:auto}.topbar nav{width:100%}}</style></head><body>
+<header class="topbar"><div class="brand">节奏大师 <span style="font-weight:400;color:#a1b6c8">3D 接线与组装</span><span class="badge">离线查看</span></div><span class="draft">设计草稿 · 实物尺寸与供电待核对</span><nav id="build-versions" style="display:flex;gap:12px;font-size:12px;flex-wrap:wrap;align-items:center"><a href="preview.html" aria-current="page" style="color:#e7eef5;border:1px solid #55dfc6;border-radius:8px;padding:7px;text-decoration:none">洞洞板版</a><a href="breadboard.html" style="color:#79e4cd;border:1px solid #466574;border-radius:8px;padding:7px;text-decoration:none">双面包板版</a><a href="simulator.html" style="color:#79e4cd">音乐验收回放</a><a href="manual.html" style="color:#79e4cd">操作手册</a></nav></header>
 <div class="layout"><main class="stage">
 <div id="viewport" aria-label="可旋转缩放的三维电路模型"></div>
 <nav class="viewbar" aria-label="查看与操作模式" style="max-width:calc(100% - 40px);align-items:center">

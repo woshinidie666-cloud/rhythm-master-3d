@@ -2,6 +2,8 @@
 
 [打开三维网页](https://woshinidie666-cloud.github.io/rhythm-master-3d/)
 
+[双面包板接线版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html)：顶部切换洞洞板和双面包板。按两块 MB-102 的 A–J、1–63 编号定位，支持逐步安装、一次显示一根线、起终点放大、五孔连通示意、单独查看元件与 CSV 接线表。默认仅显示灯和按键，屏幕与声音候选区需自行勾选。模型检查覆盖47个外围元件、64根跳线；设计通过不代表实物通电验收。核心板采用命名接口示意，不能按模型中的排针位置代替实板丝印定位。电源条按50个孔从左数，使用25到26桥接，实物连通仍需万用表确认。
+
 [指定乐曲验收回放](https://woshinidie666-cloud.github.io/rhythm-master-3d/simulator.html) · [从零组装与比赛操作手册](https://woshinidie666-cloud.github.io/rhythm-master-3d/manual.html)
 
 音乐回放直接展示实际 C 核心导出的三份测试轨迹：全部正确 29 分、漏首音 28 分、第二个长音提前松手 28 分。按附件 29 音、D 大调、86 BPM、44 拍逐音核对；网页音频来自核心实际输出的发声时段。它是自动输入的测试回放，图形屏幕是预览，不是实体 OLED 驱动。相同核心已在 STM32F103ZET6 RAM 中自动完整自测；外接电路尚未完成，不能据此认定整机比赛要求通过。
