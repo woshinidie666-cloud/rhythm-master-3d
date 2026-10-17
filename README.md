@@ -1,8 +1,8 @@
 # 节奏大师三维接线与组装
 
-[洞洞板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/index.html?v=owned-parts-20261017-v10) · [双面包板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html?v=owned-parts-20261017-v10) · [兼容孔位图](breadboard-guide.html) · [操作手册](manual.html) · [元件核对清单](hardware-checklist.xlsx)
+[洞洞板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/index.html?v=passive-16ohm-20261017-v11) · [双面包板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html?v=passive-16ohm-20261017-v11) · [兼容孔位图](breadboard-guide.html) · [操作手册](manual.html) · [元件核对清单](hardware-checklist.xlsx)
 
-2026-10-17按现有元件修正：用户没有MOS预焊转接板；有三极管和蜂鸣器但型号未确认。两版撤下旧驱动及其声音接线，保留蜂鸣器于板外待装区。声音接线尚未安排，比赛发声仍待完成。不能直接把蜂鸣器接GPIO，也不能把G/D/S接法套给三极管。
+2026-10-17按现有元件修正：用户没有MOS预焊转接板；有三极管和无源16Ω蜂鸣器，三极管型号及蜂鸣器额定电压/电流尚未确认。两版撤下旧驱动及其声音接线，保留蜂鸣器于板外待装区。声音接线尚未安排，比赛发声仍待完成。不能直接把蜂鸣器接GPIO，也不能把G/D/S接法套给三极管。
 
 两版保持相同灯、按键和OLED接线目标：13灯各串1kΩ，6键各用10kΩ上拉，OLED用PB6/PB7通信。洞洞板当前143步、97根接线；双面包板当前39个安装外围元件，另1个待装蜂鸣器，29根公公线、27根公母线和1条现有成品供电线。可选I²C上拉仅在需要时安装。
 
