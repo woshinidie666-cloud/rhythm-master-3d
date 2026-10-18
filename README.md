@@ -1,12 +1,14 @@
 # 节奏大师三维接线与组装
 
-[洞洞板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/index.html?v=rail-polarity-20261018-v12) · [双面包板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html?v=rail-polarity-20261018-v12) · [兼容孔位图](breadboard-guide.html) · [操作手册](manual.html) · [元件核对清单](hardware-checklist.xlsx)
+[洞洞板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/index.html?v=photo-rails-20261018-v13) · [双面包板版](https://woshinidie666-cloud.github.io/rhythm-master-3d/breadboard.html?v=photo-rails-20261018-v13) · [兼容孔位图](breadboard-guide.html) · [操作手册](manual.html) · [元件核对清单](hardware-checklist.xlsx)
 
 2026-10-17按现有元件修正：用户没有MOS预焊转接板；有三极管和无源16Ω蜂鸣器，三极管型号及蜂鸣器额定电压/电流尚未确认。两版撤下旧驱动及其声音接线，保留蜂鸣器于板外待装区。声音接线尚未安排，比赛发声仍待完成。不能直接把蜂鸣器接GPIO，也不能把G/D/S接法套给三极管。
 
 两版保持相同灯、按键和OLED接线目标：13灯各串1kΩ，6键各用10kΩ上拉，OLED用PB6/PB7通信。洞洞板当前143步、97根接线；双面包板当前39个安装外围元件，另1个待装蜂鸣器，29根公公线、27根公母线和1条现有成品供电线。可选I²C上拉仅在需要时安装。
 
-2026-10-18补齐面包板电源正负极：模型两端印有红色＋、蓝色−；A侧L+前25孔标3.3V，L−前25孔标GND公共地；J侧与后25孔标未使用。页面有常驻极性图例、“电源正负极近看”按钮及对应电源孔位图。
+2026-10-18按新照片校正电源列：两侧均为蓝−在左、红＋在右，真实接线端点随之校正。原板存在反向印字，普通孔采用明确的教程贴标基准：左A～E、右F～J，从上往下1～63，贴标后再按教程孔号接。
+
+面包板电源正负极：模型两端印有红色＋、蓝色−；A侧L+前25孔标3.3V，L−前25孔标GND公共地；J侧与后25孔标未使用。页面有常驻极性图例、“电源正负极近看”按钮及对应电源孔位图。
 
 面包板所有电源落点集中在电源条前25孔，删除全部5根中点跨接线。前半段自身连通仍需断电测量。充电宝只用已有整条成品线插核心板，不增加分线接头。
 
